@@ -32,6 +32,7 @@ public class BasicItemController {
     public void init() {
         itemRepository.save(new Item("itemA",10000,1));
         itemRepository.save(new Item("itemB",20000,2));
+//        itemRepository.save(new Item("itemB",20000,));
     }
 
 }
